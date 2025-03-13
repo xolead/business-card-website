@@ -52,7 +52,7 @@ a {
 .container_mini_image_top{
     display: grid;
     position: relative;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(1, 5px);
 }
 
 .buttons_menu{
@@ -63,7 +63,7 @@ a {
     padding-right: 30px;
     font-size: 32px;
     font-weight: 400;
-    padding-bottom: 40px;
+    padding-bottom: 32px;
     padding-top: 20px;
 }
 
@@ -225,10 +225,12 @@ html {
     .text_illustr{
         font-size: 90px;
         padding-bottom: 180px;
+        width: max-content;
     }
 
     .text_portfolio{
         font-size: 90px;
+        width: max-content;
     }
 }
 
